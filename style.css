@@ -2,7 +2,6 @@
 
 :root {
     --cor-destaque: rgb(250, 136, 136);
-    --cor-gradiente-preto: linear-gradient(113deg, #000 0%, #97999b 44.96%, #ecf1f5 100%);
 }
 
 * {
@@ -16,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 16px 21px 18px 21px;
-    background: var(--cor-gradiente-preto);
+    background-color:chocolate;
     height: 100vh;
     flex-direction: column;
 }
@@ -67,7 +66,7 @@ h1 {
     border-radius: 0.5rem;
     border: none;
     background: var(--cor-destaque);
-    color: #000;
+    color: #948af0;
     font-size: 2.5rem;
     font-weight: 500;
     line-height: normal;
